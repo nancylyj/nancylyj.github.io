@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-11-15 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Presented Earring project at [UW Paul G. Allen School's 2022 Annual Research Showcase](https://www.cs.washington.edu/industrial_affiliates/meetings/2022) poster session
