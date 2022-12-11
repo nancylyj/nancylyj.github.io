@@ -1,54 +1,50 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Smart Earring
+description: Self-Powered Earring for longitudinal Temperature Sensing
+img: assets/img/earring.png
 importance: 1
-category: work
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As body temperature is an important vital sign, it can be used as an indicator of physical wellbeing. Measuring body temperature has become more important during the pandemic. Moreover, studies showed that temperature is also associated with emotional states.
+Longitudinal body temperature tracking would enable a better understanding of both physical and mental health.
+Therefore, I led the design of a low-power, small-scale earring that can passively sense skin temperature on the earlobe on the earlobe and stream the data to mobile devices wirelessly.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/earring.jpg" title="smart earring" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/2.jpg" title="passive sensing" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/3.png" title="body temperature" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Smart earring that sense skin temperature in natural daily scenarios, like in a meeting or during exercising, and stream the data to smartphone 
 </div>
+
+Considering the constraints of scale, weight, and power consumption of the earring, I explored different temperature sensors, Bluetooth modules, and coin cell batteries to achieve the optimized design. 
+The final millimeter-scale system I designed and prototyped successfully receives accurate temperature data and streams to smartphones with microwatt-level power consumption.
+See the picture of system design and first prototype below:
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/demo.jpg" title="system design" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/prototype.jpg" title="prototype" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Our system design contains two temperature sensors and a bluetooth module and a coin cell battery.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
-
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -58,23 +54,8 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 </div>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+</div> -->
 
+Now, I am actively exploring power harvesting techniques for wearables, including from kinetic and ambient energy sources such as daily activities and light, in order to enable self-powered longitudinal body temperature sensing without increasing the user burden.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The goal of this project is to achieve longitudinal body temperature tracking with a self-powered earring. With the longitudinal temperature data, we would apply machine learning to make further personalized inferences, including fever detection, menstrual cycle prediction, and potentially study the relationship between emotion and body temperature.
