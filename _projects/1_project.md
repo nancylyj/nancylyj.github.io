@@ -14,13 +14,7 @@ Therefore, I led the design of a low-power, small-scale earring that can passive
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/earring.jpg" title="smart earring" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2.jpg" title="passive sensing" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.png" title="body temperature" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Earring_2.png" title="smart earring" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -31,30 +25,17 @@ Considering the constraints of scale, weight, and power consumption of the earri
 The final millimeter-scale system I designed and prototyped successfully receives accurate temperature data and streams to smartphones with microwatt-level power consumption.
 See the picture of system design and first prototype below:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/demo.jpg" title="system design" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/prototype.jpg" title="prototype" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/prototype.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Our system design contains two temperature sensors and a bluetooth module and a coin cell battery.
 </div>
-
-
-<!-- <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div> -->
 
 Now, I am actively exploring power harvesting techniques for wearables, including from kinetic and ambient energy sources such as daily activities and light, in order to enable self-powered longitudinal body temperature sensing without increasing the user burden.
 
