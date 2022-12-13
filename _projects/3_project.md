@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Anomaly Detection
+title: industrial Anomaly Detection
 description: Anomaly Detection in an Industrial Environment for Disaster Prevention
 img: assets/img/capstone.png
 importance: 3

@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: /assets/pdf/CV_Yujia_Nancy_Liu.pdf
+redirect_to: /assets/pdf/CV_Yujia_Nancy_Liu.pdf
 ---
