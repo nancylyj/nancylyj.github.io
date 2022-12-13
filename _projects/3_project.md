@@ -13,13 +13,13 @@ We used a large-scale public industrial audio dataset as input, which contains a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/system1.jpg" title="CNN model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/system1.png" title="CNN model" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/system2.jpg" title="Inference" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/system2.png" title="Inference" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/system3.jpg" title="On-device ML" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/system3.png" title="On-device ML" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -31,7 +31,7 @@ We performed inference using our model and an Icicle Development Kit. The Icicle
 <div class="container">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/result.jpg" title="result" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/result.png" title="result" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
