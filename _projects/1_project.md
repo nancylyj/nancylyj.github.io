@@ -26,15 +26,15 @@ The final millimeter-scale system I designed and prototyped successfully receive
 See the picture of system design and first prototype below:
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.html path="assets/img/demo.jpg" title="system design" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.html path="assets/img/prototype.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Our system design contains two temperature sensors and a bluetooth module and a coin cell battery.
+    Our system design contains two temperature sensors, a bluetooth module and a coin cell battery.
 </div>
 
 Now, I am actively exploring power harvesting techniques for wearables, including from kinetic and ambient energy sources such as daily activities and light, in order to enable self-powered longitudinal body temperature sensing without increasing the user burden.

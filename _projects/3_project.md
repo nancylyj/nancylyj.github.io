@@ -1,81 +1,42 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: Anomaly Detection
+description: Anomaly Detection in an Industrial Environment for Disaster Prevention
+img: assets/img/capstone.png
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In large industrial setting, system failure can cost big sums of money and in the worst case, loss of human lives. However, it is inevitable that industrial equipment degrades with time, making it hard to predict when a system failure will happen. Usually, devices change their characteristic sounds when they degrade, but humans cannot monitor these changes without the help from a digital system. Therefore, we presented a Convolutional Neural Network (CNN) model to detect anomalies in an industrial environment.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We used a large-scale public industrial audio dataset as input, which contains audio files of equipment like fan, valve, pump, and slider. I preprocessed the audio files using noise cancellation algorithms (RNNoise an BRIL) or digital signal processing filters. Next, we made spectrograms of the audio inputs and fed them into Conoolutional Neural Network (CNN) model. To optimize the accuracy of the CNN model, I researched data augmentation since the imbalanced dataset has less abnormal data (which is typical in real settings) and performed augmentation using SMOTE. The accuracy of our final 2D CNN model was 97%, averaging on different equipment.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/system1.jpg" title="CNN model" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/system2.jpg" title="Inference" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/system3.jpg" title="On-device ML" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    System Diagram (Note: since the project was sponsored by Microchip, so we used VectorBlox SDK and Icicle Kit from Microchip)
 </div>
+
+We performed inference using our model and an Icicle Development Kit. The Icicle Kit contains an FPGA which is programmed with the VectorBlox IP. VectorBlox IP is Microchip’s hardware block that performs inference on the board with our CNN model. And we tested the performance in reality by using the audio data collected from a demo fan. The accuracy reached 98%.
+
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        {% include figure.html path="assets/img/result.jpg" title="result" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Result from both Tensorflow model and VectorBlox IP Simulator
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The overall performance of our selected model is very satisfactory. It produces excellent results when the SNR is -7dB or better (F-Measure > 0.90). In addition VectorBlox was found to produce good results with high performance (28ms/inference) with minimal impact from quantization.
