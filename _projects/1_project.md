@@ -25,11 +25,11 @@ Considering the constraints of scale, weight, and power consumption of the earri
 The final millimeter-scale system I designed and prototyped successfully receives accurate temperature data and streams to smartphones with microwatt-level power consumption.
 See the picture of system design and first prototype below:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/demo.jpg" title="system design" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/prototype.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

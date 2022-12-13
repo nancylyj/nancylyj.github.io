@@ -3,7 +3,6 @@ layout: page
 title: Anomaly Detection
 description: Anomaly Detection in an Industrial Environment for Disaster Prevention
 img: assets/img/capstone.png
-redirect: https://unsplash.com
 importance: 3
 category: research
 ---
@@ -29,10 +28,11 @@ We used a large-scale public industrial audio dataset as input, which contains a
 
 We performed inference using our model and an Icicle Development Kit. The Icicle Kit contains an FPGA which is programmed with the VectorBlox IP. VectorBlox IP is Microchip’s hardware block that performs inference on the board with our CNN model. And we tested the performance in reality by using the audio data collected from a demo fan. The accuracy reached 98%.
 
-
-<div class="row">
-    <div class="col">
-        {% include figure.html path="assets/img/result.jpg" title="result" class="img-fluid rounded z-depth-1" %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/result.jpg" title="result" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
 </div>
 <div class="caption">
