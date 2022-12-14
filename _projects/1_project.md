@@ -40,3 +40,5 @@ See the picture of system design and first prototype below:
 Now, I am actively exploring power harvesting techniques for wearables, including from kinetic and ambient energy sources such as daily activities and light, in order to enable self-powered longitudinal body temperature sensing without increasing the user burden.
 
 The goal of this project is to achieve longitudinal body temperature tracking with a self-powered earring. With the longitudinal temperature data, we would apply machine learning to make further personalized inferences, including fever detection, menstrual cycle prediction, and potentially study the relationship between emotion and body temperature.
+
+Check out the [poster]() presented at UW Paul G. Allen School's 2022 Annual Research Showcase.
