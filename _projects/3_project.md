@@ -1,7 +1,7 @@
 ---
 layout: page
-title: industrial Anomaly Detection
-description: Anomaly Detection in an Industrial Environment for Disaster Prevention
+title: Industrial Anomaly Detection
+description: Anomaly Detection in Industrial Environments for Disaster Prevention
 img: assets/img/capstone.png
 importance: 3
 category: research
