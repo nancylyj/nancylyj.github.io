@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Smart Earring
-description: Self-Powered Earring for longitudinal Temperature Sensing
+description: Self-Powered Earring for Longitudinal Temperature Sensing
 img: assets/img/earring.png
 importance: 1
 category: research
@@ -41,4 +41,4 @@ Now, I am actively exploring power harvesting techniques for wearables, includin
 
 The goal of this project is to achieve longitudinal body temperature tracking with a self-powered earring. With the longitudinal temperature data, we would apply machine learning to make further personalized inferences, including fever detection, menstrual cycle prediction, and potentially study the relationship between emotion and body temperature.
 
-Check out the [poster]() presented at UW Paul G. Allen School's 2022 Annual Research Showcase.
+Check out the [poster](projects/EarringPoster.pdf) presented at UW Paul G. Allen School's 2022 Annual Research Showcase.
