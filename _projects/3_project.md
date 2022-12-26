@@ -11,12 +11,14 @@ In large industrial setting, system failure can cost big sums of money and in th
 
 We used a large-scale public industrial [audio dataset](https://zenodo.org/record/3384388#.Y6lTJOzMJQI) as input, which contains audio files recorded from four types of industrial machines, fans, valves, pumps, and slider rails. I first preprocessed the audio files using noise cancellation algorithms (RNNoise an BRIL) and digital signal processing filters. Next, we made spectrograms of the audio inputs and fed them into a 2D CNN model that we developed. To optimize the accuracy of the CNN model, I researched data augmentation since the imbalanced dataset has less abnormal data than normal data (which is typical in real settings) and performed augmentation using SMOTE. The accuracy of our final 2D CNN model was 97%, averaging on different equipment.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/system1.png" title="CNN model" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/system2.png" title="Inference" class="img-fluid rounded z-depth-1" %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm mt-4 mt-md-0">
+            {% include figure.html path="assets/img/system1.png" title="CNN model" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="col-sm mt-4 mt-md-0">
+            {% include figure.html path="assets/img/system2.png" title="Inference" class="img-fluid rounded z-depth-1" %}
+        </div>
     </div>
 </div>
 <div class="caption">
