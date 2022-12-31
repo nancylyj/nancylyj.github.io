@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Yujia Nancy Liu
-    # - name: Languages
-    #   value: Mandarin Chinese (Native), English (Fluent), Korean (Communication)
-    # - name: Hobbies
-    #   value: Watching Movies and TV shows, Jogging
+      value: Yujia (Nancy) Liu
+    - name: Pronoun
+      value: She/Her/Hers
+    - name: Email
+      value: nyjliu@uw.edu
 
 - title: Education
   type: time_table
@@ -40,40 +40,40 @@
       description:
         - title: Project - Low-power Earring for Longitudinal Temperature Sensing
           contents:
-            - Explore difference temperature sensors and Bluetooth modules to optimize the size, weight, and power consumption.
-            - Design and prototype the low-power small-scale earring for multiple iterations.
-            - Explore power harvesting techniques for wearables including from kinetic and ambient energy sources.
+            - Explore difference temperature sensors and Bluetooth modules to optimize the size, weight, and power consumption
+            - Design and prototype the low-power small-scale earring for multiple iterations
+            - Explore power harvesting techniques for wearables including from kinetic and ambient energy sources
         - title: Project - Large-scale Multimodal Physiological Sensing
           contents:
-            - Contribute to an open-source toolbox to make remote photoplethysmogram (rPPG) research more accessible and standardized.
-            - Explore and preprocess public rPPG datasets to make them compatible with the toolbox.
-            - Run hyperparameter sweeps of the Facial Action Unit dataset to best understand and help the Facial Action Coding System (FACS) model learning.
-            - Research multi-task training for highly diverse physiological modalities.
+            - Contribute to an open-source toolbox to make remote photoplethysmogram (rPPG) research more accessible and standardized
+            - Explore and preprocess public rPPG datasets to make them compatible with the toolbox
+            - Run hyperparameter sweeps of the Facial Action Unit dataset to best understand and help the Facial Action Coding System (FACS) model learning
+            - Research multi-task training for highly diverse physiological modalities
 
     - title: Technical Program Manager Intern
       institution: Microsoft
       year: Aug 2021 - Dec 2021
       description:
-        - Performed electrical analyses and executed designs-of-experiments to solve product functional problems.
-        - Worked with cross function teams to manage and support product changes.
-        - Drove the product yield continuous improvement (improved 10%) and scrap cost reduction (reduced 7%).
-        - Developed machine learning models for scrap cost prediction.
+        - Performed electrical analyses and executed designs-of-experiments to solve product functional problems
+        - Worked with cross function teams to manage and support product changes
+        - Drove the product yield continuous improvement (improved 10%) and scrap cost reduction (reduced 7%)
+        - Developed machine learning models for scrap cost prediction
 
     - title: Technical Enablement Engineer Intern
       institution: Intel Corporation
       year: June 2021 - Aug 2021
       description:
-        - Set up remote debug system on the server for issue reproduction and system debugging.
-        - Supported customer RAS feature enablement and debugging by testing features on the servers using CScript.
-        - Figured out useful platform changes that could help update the Integration and Validation Guide (IVG) and improve customer support effectiveness.
+        - Set up remote debug system on the server for issue reproduction and system debugging
+        - Supported customer RAS feature enablement and debugging by testing features on the servers using CScript
+        - Figured out useful platform changes that could help update the Integration and Validation Guide (IVG) and improve customer support effectiveness
 
     - title: Digital Signal Processing and Machine Learning Engineer
       institution: Capstone Project, University of Washington and Microchip
       year: Jan 2021 - June 2021
       description:
-        - Pre-processed the audio files of industrial equipment using noise cancellation algorithms or digital signal processing filters.
-        - Researched and improved the performance of the final Convolutional Neural Network Model to ensure accuracy ≥ 95%.
-        - Documented and presented project progress to industry and faculty mentors weekly.
+        - Pre-processed the audio files of industrial equipment using noise cancellation algorithms or digital signal processing filters
+        - Researched and improved the performance of the final Convolutional Neural Network Model to ensure accuracy ≥ 95%
+        - Documented and presented project progress to industry and faculty mentors weekly
 
     - title: Electrical Engineer Intern
       institution: Hezheng Technology Development Co.,Ltd, China
@@ -81,32 +81,32 @@
       description:
         - title: Project - Smart Voltage Loss Detector for Electricity Meters
           contents:
-            - Developed and documented schematics capture and PCB layout for the project using Altium Designer.
-            - Tested and troubleshot 30 final products using electrical test equipment.
-            - Partnered with colleagues to program microcontroller using Keil.
+            - Developed and documented schematics capture and PCB layout for the project using Altium Designer
+            - Tested and troubleshot 30 final products using electrical test equipment
+            - Partnered with colleagues to program microcontroller using Keil
 
 - title: Teaching
   type: time_table
   contents:
     - title: Graduate Teaching Assistant
     - institution: University of Washington, Seattle
-      year: September 2022 - Present
+      year: Autumn 2022
       description: 
         - title: Course - EE 331 Devices and Circuits
           contents:
-            - Lead two lab sections weekly and grade lab reports.
-            - Document and review lab related materials including lab instructions, solution, grading rubric and tutorials.
-            - Hold office hours and proctor midterms and final exam.
+            - Lead two lab sections weekly and grade lab reports
+            - Document and review lab related materials including lab instructions, solution, grading rubric and tutorials
+            - Hold office hours and proctor midterms and final exam
     
     - title: Graduate Teaching Assistant
     - institution: University of Washington, Seattle
-      year: March 2022 - June 2022
+      year: Spring 2022
       description:
         - title: Course - EE 331 Devices and Circuits
           contents:
-            - Prepared review materials and led discussion sessions for the class size of 96 students.
-            - Held office hours twice a week.
-            - Proctored and graded exams.
+            - Prepared review materials and led discussion sessions for the class size of 96 students
+            - Held office hours twice a week
+            - Proctored and graded exams
 
 - title: Skills
   type: nested_list
@@ -120,6 +120,36 @@
     - title: Languages
       items:
         - Mandarin Chinese (Native); English (Fluent); Korean (Communication)
+
+- title: Additional Work and Leadership Experience
+  type: time_table
+  contents:
+    - title: President
+    - institution: UW ECE Graduate Student Association
+      year: Sept 2021 - Present
+      description: 
+        - Handle the internal operations, including holding weekly meeting and coordinating with ECE advising staff
+        - Document and maintain the operation materials
+        - Help organize biweekly social events, like meetups, game nights, workshops, etc
+    - title: Grader
+    - institution: University of Washington, Seattle
+      year: Sept 2020 - Dec 2020
+      description:
+        - title: Graduate Level Course - EEP 560 Advanced Electric Machines and Drives
+          contents:
+          - Graded 23 reports biweekly and maintained records on students' assignment completion
+    - title: Vice Director
+    - institution: Student International Communication Association
+      year: May 2018 - June 2019
+      description:
+      - Conducted interviews with international students on a weekly basis
+      - Wrote news reports for events and posted them on social media
+
+- title: Volunteering
+  type: list
+  contents: 
+    - Student Volunteer for UIST 2022
+    - Student Volunteer for UW ECE 2022 Graduate Student Orientation
 
 - title: Honors and Awards
   type: time_table
