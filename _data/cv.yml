@@ -5,7 +5,7 @@
       value: Yujia (Nancy) Liu
     - name: Pronoun
       value: She/Her/Hers
-    - name: Email
+    - name: Contact
       value: nyjliu@uw.edu
 
 - title: Education
@@ -35,7 +35,7 @@
   type: time_table
   contents:
     - title: Graduate Student Researcher
-      institution: University of Washington, Ubicomp Lab
+    - institution: University of Washington, Ubicomp Lab
       year: April 2022 - Present
       description:
         - title: Project - Low-power Earring for Longitudinal Temperature Sensing
@@ -51,7 +51,7 @@
             - Research multi-task training for highly diverse physiological modalities
 
     - title: Technical Program Manager Intern
-      institution: Microsoft
+    - institution: Microsoft
       year: Aug 2021 - Dec 2021
       description:
         - Performed electrical analyses and executed designs-of-experiments to solve product functional problems
@@ -60,7 +60,7 @@
         - Developed machine learning models for scrap cost prediction
 
     - title: Technical Enablement Engineer Intern
-      institution: Intel Corporation
+    - institution: Intel Corporation
       year: June 2021 - Aug 2021
       description:
         - Set up remote debug system on the server for issue reproduction and system debugging
@@ -68,7 +68,7 @@
         - Figured out useful platform changes that could help update the Integration and Validation Guide (IVG) and improve customer support effectiveness
 
     - title: Digital Signal Processing and Machine Learning Engineer
-      institution: Capstone Project, University of Washington and Microchip
+    - institution: Capstone Project, University of Washington and Microchip
       year: Jan 2021 - June 2021
       description:
         - Pre-processed the audio files of industrial equipment using noise cancellation algorithms or digital signal processing filters
@@ -76,7 +76,7 @@
         - Documented and presented project progress to industry and faculty mentors weekly
 
     - title: Electrical Engineer Intern
-      institution: Hezheng Technology Development Co.,Ltd, China
+    - institution: Hezheng Technology Development Co.,Ltd, China
       year: April 2020 - Oct 2020
       description:
         - title: Project - Smart Voltage Loss Detector for Electricity Meters
