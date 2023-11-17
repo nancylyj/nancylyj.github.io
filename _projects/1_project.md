@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Smart Earring
-description: Self-Powered Earring for Longitudinal Temperature Sensing
-img: assets/img/earring.png
+description: Low-power Wireless Earring for Longitudinal Earlobe Temperature Sensing
+img: assets/img/earring with fashion design.jpg
 importance: 1
 category: research
 ---
