@@ -44,17 +44,7 @@
     - institution: UC San Diego, DigiHealth Lab
       year: April 2022 - Present
       description:
-        - title: DigiHealth Lab; UCSD Design Lab
-          contents:
-        #     - Explore difference temperature sensors and Bluetooth modules to optimize the size, weight, and power consumption
-        #     - Design and prototype the low-power small-scale earring for multiple iterations
-        #     - Explore power harvesting techniques for wearables including from kinetic and ambient energy sources
-        # - title: Project - Large-scale Multimodal Physiological Sensing
-        #   contents:
-        #     - Contribute to an open-source toolbox to make remote photoplethysmogram (rPPG) research more accessible and standardized
-        #     - Explore and preprocess public rPPG datasets to make them compatible with the toolbox
-        #     - Run hyperparameter sweeps of the Facial Action Unit dataset to best understand and help the Facial Action Coding System (FACS) model learning
-        #     - Research multi-task training for highly diverse physiological modalities
+        - DigiHealth Lab; UCSD Design Lab
 
     - title: Graduate Student Researcher
     - institution: University of Washington, Ubicomp Lab
