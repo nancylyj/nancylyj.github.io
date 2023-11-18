@@ -11,12 +11,18 @@
 - title: Education
   type: time_table
   contents:
+  - title: University of California, San Diego
+      institution: PhD in Electrical and Computer Engineering
+      year: 2023 - Present
+      description:
+        - Advised by Prof. Edward Wang
+
     - title: University of Washington, Seattle
-      institution: M.S. in Electrical and Computer Engineering
-      year: 2020 - Present
+      institution: M.S. Thesis in Electrical and Computer Engineering
+      year: 2020 - 2023
       description:
         - Advised by Prof. Shwetak Patel
-        - GPA - 3.87
+        - GPA - 3.90
 
     - title: University of California, Davis
       institution: Global Study Program
@@ -34,21 +40,38 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+    - institution: UC San Diego, DigiHealth Lab
+      year: April 2022 - Present
+      description:
+        - title: DigiHealth Lab; UCSD Design Lab
+        #   contents:
+        #     - Explore difference temperature sensors and Bluetooth modules to optimize the size, weight, and power consumption
+        #     - Design and prototype the low-power small-scale earring for multiple iterations
+        #     - Explore power harvesting techniques for wearables including from kinetic and ambient energy sources
+        # - title: Project - Large-scale Multimodal Physiological Sensing
+        #   contents:
+        #     - Contribute to an open-source toolbox to make remote photoplethysmogram (rPPG) research more accessible and standardized
+        #     - Explore and preprocess public rPPG datasets to make them compatible with the toolbox
+        #     - Run hyperparameter sweeps of the Facial Action Unit dataset to best understand and help the Facial Action Coding System (FACS) model learning
+        #     - Research multi-task training for highly diverse physiological modalities
+
     - title: Graduate Student Researcher
     - institution: University of Washington, Ubicomp Lab
-      year: April 2022 - Present
+      year: April 2022 - June 2023
       description:
         - title: Project - Low-power Earring for Longitudinal Temperature Sensing
           contents:
-            - Explore difference temperature sensors and Bluetooth modules to optimize the size, weight, and power consumption
-            - Design and prototype the low-power small-scale earring for multiple iterations
-            - Explore power harvesting techniques for wearables including from kinetic and ambient energy sources
+            - Explored difference temperature sensors and Bluetooth modules to optimize the size, weight, and power consumption
+            - Designed and prototyped the low-power small-scale earring for multiple iterations
+            - Studied real-world effects of fever, daily activities, and environmental changes on earlobe temperature
+            - Explored event detection with heuristic algorithms and earring fashion design with resin
         - title: Project - Large-scale Multimodal Physiological Sensing
           contents:
-            - Contribute to an open-source toolbox to make remote photoplethysmogram (rPPG) research more accessible and standardized
-            - Explore and preprocess public rPPG datasets to make them compatible with the toolbox
-            - Run hyperparameter sweeps of the Facial Action Unit dataset to best understand and help the Facial Action Coding System (FACS) model learning
-            - Research multi-task training for highly diverse physiological modalities
+            - Contributed to an open-source toolbox to make remote photoplethysmogram (rPPG) research more accessible and standardized
+            - Explored and preprocessed public rPPG datasets to make them compatible with the toolbox
+            - Ran hyperparameter sweeps of the Facial Action Unit dataset to best understand and help the Facial Action Coding System (FACS) model learning
+            - Researched multi-task training for highly diverse physiological modalities
 
     - title: Technical Program Manager Intern
     - institution: Microsoft
@@ -90,7 +113,7 @@
   contents:
     - title: Graduate Teaching Assistant
     - institution: University of Washington, Seattle
-      year: Autumn 2022
+      year: Autumn 2022, Winter 2023
       description: 
         - title: Course - EE 331 Devices and Circuits
           contents:
@@ -154,6 +177,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - UCSD Jacobs Fellowship
+        - UCSD Design Lab Norman Design Fund
     - year: 2021
       items: 
         - Microsoft Hack4GCR Winner
