@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-  - title: University of California, San Diego
+    - title: University of California, San Diego
       institution: PhD in Electrical and Computer Engineering
       year: 2023 - Present
       description:
