@@ -50,17 +50,12 @@
     - institution: University of Washington, Ubicomp Lab
       year: Apr 2022 - June 2023
       description:
-        - title: Project - Low-power Earring for Longitudinal Temperature Sensing
+        - title: Project - Smart Earring for Longitudinal Temperature Sensing
           contents:
-            - Explored difference temperature sensors and Bluetooth modules to optimize the size, weight, and power consumption
-            - Designed and prototyped the low-power small-scale earring for multiple iterations
-            - Studied real-world effects of fever, daily activities, and environmental changes on earlobe temperature
-            - Explored event detection with heuristic algorithms and earring fashion design with resin
+            - Designed a low-power small-scale lightweight smart earring for longitudinal earlobe temperature sensing
         - title: Project - Large-scale Multimodal Physiological Sensing
           contents:
             - Contributed to an open-source toolbox to make remote photoplethysmogram (rPPG) research more accessible and standardized
-            - Explored and preprocessed public rPPG datasets to make them compatible with the toolbox
-            - Ran hyperparameter sweeps of the Facial Action Unit dataset to best understand and help the Facial Action Coding System (FACS) model learning
             - Researched multi-task training for highly diverse physiological modalities
 
     - title: Technical Program Manager Intern
@@ -70,7 +65,7 @@
         - Performed electrical analyses and executed designs-of-experiments to solve product functional problems
         - Worked with cross function teams to manage and support product changes
         - Drove the product yield continuous improvement (improved 10%) and scrap cost reduction (reduced 7%)
-        - Developed machine learning models for scrap cost prediction
+        - Explored machine learning models for scrap cost prediction
 
     - title: Technical Enablement Engineer Intern
     - institution: Intel Corporation
@@ -78,7 +73,7 @@
       description:
         - Set up remote debug system on the server for issue reproduction and system debugging
         - Supported customer RAS feature enablement and debugging by testing features on the servers using CScript
-        - Figured out useful platform changes that could help update the Integration and Validation Guide (IVG) and improve customer support effectiveness
+        - Documented useful platform changes that could help update the Integration and Validation Guide (IVG) and improve customer support effectiveness
 
     - title: Digital Signal Processing and Machine Learning Engineer
     - institution: Capstone Project, University of Washington and Microchip
@@ -107,9 +102,9 @@
       description: 
         - title: Course - EE 331 Devices and Circuits
           contents:
-            - Lead two lab sections weekly and grade lab reports
-            - Document and review lab related materials including lab instructions, solution, grading rubric and tutorials
-            - Hold office hours and proctor midterms and final exam
+            - Led two lab sections weekly and grade lab reports
+            - Documented and updated lab related materials including lab instructions, solutions, grading rubric and tutorials
+            - Held office hours and proctor midterms and final exam
     
     - title: Graduate Teaching Assistant
     - institution: University of Washington, Seattle
@@ -129,10 +124,10 @@
         - Python; Java; C/C++; SQL; System Verilog; Assembly
     - title: Professional skills
       items:
-        - Machine Learning; Embedded System; PCB Design; FPGA Design; Simulation
+        - Machine Learning; Embedded System; PCB Design; MATLAB; Linux; Simulation; FPGA Design 
     - title: Languages
       items:
-        - Mandarin Chinese (Native); English (Fluent); Korean (Communication)
+        - Mandarin Chinese (Native); English (Fluent); Korean (Oral)
 
 - title: Additional Work and Leadership Experience
   type: time_table
@@ -141,9 +136,9 @@
     - institution: UW ECE Graduate Student Association
       year: Sept 2021 - Dec 2022
       description: 
-        - Handle the internal operations, including holding weekly meeting and coordinating with ECE advising staff
-        - Document and maintain the operation materials
-        - Help organize biweekly social events, like meetups, game nights, workshops, etc
+        - Handled the internal operations, including holding weekly meeting and coordinating with ECE advising staff
+        - Documented and maintain the operation materials
+        - Helped organize biweekly social events, like meetups, game nights, workshops, etc
     - title: Grader
     - institution: University of Washington, Seattle
       year: Sept 2020 - Dec 2020
