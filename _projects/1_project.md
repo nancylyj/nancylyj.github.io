@@ -6,6 +6,7 @@ img: assets/img/earring with fashion design.jpg
 importance: 1
 category: research
 ---
+Please refer to the [paper](https://dl.acm.org/doi/10.1145/3631440) for technical details.
 
 As body temperature is an important vital sign, it can be used as an indicator of physical wellbeing. Measuring body temperature has become more important during the pandemic. Moreover, studies showed that temperature is also associated with emotional states.
 Longitudinal body temperature tracking would enable a better understanding of both physical and mental health.

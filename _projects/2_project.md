@@ -2,10 +2,11 @@
 layout: page
 title: Multimodal Physiological Sensing
 description: Multi-task learning for multiple physiological signals
-img: assets/img/cover.jpg
+img: assets/img/rppg.png
 importance: 2
 category: research
 ---
+Please refer to the [paper](https://openaccess.thecvf.com/content/WACV2024/papers/Narayanswamy_BigSmall_Efficient_Multi-Task_Learning_for_Disparate_Spatial_and_Temporal_Physiological_WACV_2024_paper.pdf) for technical details.
 
 As the COVID-19 pandemic has demonstrated a need for remote health care, non-contact physiological sensing with ubiquitous hardware such as cameras may enable medical practitioners to give educated medical advice in a remote setting.
 In this project, we seek to build comprehensive and robust model for multimodal signals including blood pressure, and facial action units for emotion detection.
