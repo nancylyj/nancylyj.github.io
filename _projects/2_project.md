@@ -8,7 +8,7 @@ category: research
 ---
 Please refer to the [paper](https://openaccess.thecvf.com/content/WACV2024/papers/Narayanswamy_BigSmall_Efficient_Multi-Task_Learning_for_Disparate_Spatial_and_Temporal_Physiological_WACV_2024_paper.pdf) for technical details.
 
-As the COVID-19 pandemic has demonstrated a need for remote health care, non-contact physiological sensing with ubiquitous hardware such as cameras may enable medical practitioners to give educated medical advice in a remote setting.
+<!-- As the COVID-19 pandemic has demonstrated a need for remote health care, non-contact physiological sensing with ubiquitous hardware such as cameras may enable medical practitioners to give educated medical advice in a remote setting.
 In this project, we seek to build comprehensive and robust model for multimodal signals including blood pressure, and facial action units for emotion detection.
 
 <div class="container"> 
@@ -27,4 +27,4 @@ First, to make remote photoplethysmogram (rPPG) research more accessible and sta
 Beyond this, I have been working on large multi-task training for highly diverse physiological modalities including blood pressure and [facial action units](https://www.paulekman.com/facial-action-coding-system/) for emotion detection built on top of the toolbox infrastructure. I have explored multiple public rPPG datasets, including [PURE](https://www.tu-ilmenau.de/universitaet/fakultaeten/fakultaet-informatik-und-automatisierung/profil/institute-und-fachgebiete/institut-fuer-technische-informatik-und-ingenieurinformatik/fachgebiet-neuroinformatik-und-kognitive-robotik/data-sets-code/pulse-rate-detection-dataset-pure), [UBFC](https://sites.google.com/view/ybenezeth/ubfcrppg?pli=1), [SCAMPS](https://arxiv.org/abs/2206.04197), and [BP4D](https://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html) and preprocessed the large-scale video data and labels to make them compatible with the toolbox.
 
 Add more details soon...
-
+ -->

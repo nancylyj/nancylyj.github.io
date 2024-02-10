@@ -8,6 +8,15 @@ category: research
 ---
 Please refer to the [paper](https://dl.acm.org/doi/10.1145/3631440) for technical details.
 
+<!-- [Shirley](https://xueqiuyue.com/) loves earrings. She has a collection of earrings at home, and one day came up with this idea: earrings could be an option for people who would like to track personal health with smart wearables.
+And she found me, who was a master student in ECE at that time, applied to do research in the [Ubicomp Lab](https://ubicomplab.cs.washington.edu/).
+
+I like the idea and she seems to be a very nice person to work with, therefore, I joined.
+
+We started with testing 
+
+
+
 As body temperature is an important vital sign, it can be used as an indicator of physical wellbeing. Measuring body temperature has become more important during the pandemic. Moreover, studies showed that temperature is also associated with emotional states.
 Longitudinal body temperature tracking would enable a better understanding of both physical and mental health.
 Therefore, I led the design of a low-power, small-scale earring that can passively sense skin temperature on the earlobe on the earlobe and stream the data to mobile devices wirelessly.
@@ -42,4 +51,4 @@ Now, I am actively exploring power harvesting techniques for wearables, includin
 
 The goal of this project is to achieve longitudinal body temperature tracking with a self-powered earring. With the longitudinal temperature data, we would apply machine learning to make further personalized inferences, including fever detection, menstrual cycle prediction, and potentially study the relationship between emotion and body temperature.
 
-Check out the [poster](projects/EarringPoster.pdf) presented at UW Paul G. Allen School's 2022 Annual Research Showcase.
+Check out the [poster](projects/EarringPoster.pdf) presented at UW Paul G. Allen School's 2022 Annual Research Showcase. -->
