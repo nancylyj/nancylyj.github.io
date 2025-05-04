@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -391,16 +384,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/announcement_2_prev/";
+            },},{id: "news-attended-ubicomp-iswc-2023-in-cancun-mexico-great-talks-great-food-and-great-time-meeting-old-and-new-friends",
+          title: 'Attended UbiComp/ISWC 2023 in Cancun, Mexico. Great talks, great food, and great time...',
+          description: "",
+          section: "News",},{id: "news-thermalearring-got-accepted-to-ubicomp-imwut",
+          title: 'ThermalEarring got accepted to UbiComp/IMWUT!',
+          description: "",
+          section: "News",},{id: "news-bigsmall-is-accepted-to-wacv-2024",
+          title: 'BigSmall is accepted to WACV 2024.',
+          description: "",
+          section: "News",},{id: "news-published-a-paper-in-science-advances",
+          title: 'Published a paper in Science Advances.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -455,6 +454,13 @@ ninja.data = [{
           window.open("mailto:%6E%79%6A%6C%69%75@%75%63%73%64.%65%64%75", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=G9aIhu0AAAAJ", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -474,13 +480,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=G9aIhu0AAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
