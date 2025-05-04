@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended [UbiComp/ISWC 2023](https://www.ubicomp.org/ubicomp-iswc-2023/) in Cancun, Mexico. Great talks, great food, and great time meeting old and new friends.
+Attended [UbiComp/ISWC 2023](https://www.ubicomp.org/ubicomp-iswc-2023/) in Cancun, Mexico.
