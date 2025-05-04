@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-10-08 08:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Attended [UbiComp/ISWC 2023](https://www.ubicomp.org/ubicomp-iswc-2023/) in Cancun, Mexico. Great talks, great food, and great time meeting old and new friends.
