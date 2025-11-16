@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -384,11 +391,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2_prev/";
             },},{id: "news-attended-ubicomp-iswc-2023-in-cancun-mexico",
           title: 'Attended UbiComp/ISWC 2023 in Cancun, Mexico.',
           description: "",
@@ -401,8 +403,8 @@ ninja.data = [{
           section: "News",},{id: "news-attended-ubicomp-iswc-2024-in-melbourne-australia-presented-thermalearring-with-shirley",
           title: 'Attended Ubicomp/ISWC 2024 in Melbourne, Australia, presented ThermalEarring with Shirley.',
           description: "",
-          section: "News",},{id: "news-published-a-paper-in-science-advances",
-          title: 'Published a paper in Science Advances.',
+          section: "News",},{id: "news-our-paper-got-published-in-science-advances",
+          title: 'Our paper got published in Science Advances!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
