@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Published a paper in Science Advances.
+Our paper got published in [Science Advances](https://www.science.org/doi/10.1126/sciadv.adq0305)!

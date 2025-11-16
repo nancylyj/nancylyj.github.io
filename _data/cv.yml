@@ -2,96 +2,118 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yujia (Nancy) Liu
+    - name: Pronoun
+      value: She/Her/Hers
+    - name: Contact
+      value: nyjliu@ucsd.edu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: University of California, San Diego
+      institution: PhD in Electrical and Computer Engineering
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advised by Prof. Edward Wang
+        - GPA - 4.0
+
+    - title: University of Washington, Seattle
+      institution: M.S. Thesis in Electrical and Computer Engineering
+      year: 2020 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Advised by Prof. Shwetak Patel
+        - GPA - 3.90
+
+    - title: University of California, Davis
+      institution: Global Study Program
+      year: 2019 - 2020
+      description:
+        - Visiting Student in Electrical and Electronics Engineering
+        - GPA - 3.62
+
+    - title: Shandong University of Technology
+      institution: B.S. in Electrical Engineering and Automation
+      year: 2016 - 2020
+      description:
+        - GPA - 3.88
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+    - institution: UC San Diego, DigiHealth Lab
+      year: Sept 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Exploring language models for clinical tasks
+
+    - title: Graduate Student Researcher
+    - institution: University of Washington, Ubicomp Lab
+      year: Apr 2022 - June 2023
+      description:
+        - title: Project - Smart Earring for Longitudinal Temperature Sensing
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Designed a low-power small-scale lightweight smart earring for longitudinal earlobe temperature sensing
+        - title: Project - Large-scale Multimodal Physiological Sensing
+          contents:
+            - Contributed to an open-source toolbox to make remote photoplethysmogram (rPPG) research more accessible and standardized
+            - Researched multi-task training for highly diverse physiological modalities
+
+    - title: Technical Program Manager Intern
+    - institution: Microsoft
+      year: Aug 2021 - Dec 2021
       description:
-        - Description 1.
-        - Description 2.
+        - EE analysis for Surface Duo product at Microsoft Device Team
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Technical Enablement Engineer Intern
+    - institution: Intel Corporation
+      year: June 2021 - Aug 2021
       description:
+        - Supported customer RAS feature enablement and debugging on the servers
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Electrical Engineer Intern
+    - institution: Hezheng Technology Development Co.,Ltd, China
+      year: Apr 2020 - Oct 2020
+      description:
+        - title: Project - Smart Voltage Loss Detector for Electricity Meters
+          contents:
+            - Schematic and PCB design using Altium Designer
 
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Graduate Teaching Assistant 
+    - institution: University of California, San Diego
+      year: March 2025 - June 2025
+      description:
+        - title: Course - ECE 16 Rapid Hardward and Software Design
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Graduate Teaching Assistant
+    - institution: University of Washington, Seattle
+      year: Sept 2022 - Mar 2023
+      description: 
+        - title: Course - EE 331 Devices and Circuits
+    
+    - title: Graduate Teaching Assistant
+    - institution: University of Washington, Seattle
+      year: Spring 2022
+      description:
+        - title: Course - EE 331 Devices and Circuits
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming languages
+      items: 
+        - Python; Java; C/C++; SQL; System Verilog; Assembly
+    - title: Professional skills
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Large Language Models, Machine Learning; Embedded System; PCB Design; MATLAB; Linux; Simulation; FPGA Design 
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
+        - Mandarin Chinese (Native); English (Fluent); Korean (Oral)
 
-- title: Other Interests
+- title: Hobbies
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Watching Movies and TV shows, Journaling, Travel
