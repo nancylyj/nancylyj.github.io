@@ -31,7 +31,7 @@ I am a PhD student in [DigiHealth Lab](https://digihealth.ucsd.edu/) at Universi
 
 Prior to UC San Diego, I earned my MS from University of Washington Seattle, where I was advised by Prof. [Shwetak Patel](https://people.ece.uw.edu/patel_shwetak/). I was also fortunate to work with Prof. [Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/). My work at [UW Ubicomp Lab](https://ubicomplab.cs.washington.edu/) focuses on wearable devices and multimodal physiological sensing.
 
-My research interests lie in developing intelligent end-to-end systems that serve as ubiquitous assistants to human beings, with an emphasis in healthcare domain.
+I develop end-to-end systems to provide intelligent assistants to human beings, with an emphasis in health. Currently, my research focuses on building patient-facing and physician-facing tools powered by large languge models to improve clinical workflows and support personalized patient care.
 
 Feel free to reach out to me at nyjliu [at] ucsd [dot] edu!
 
