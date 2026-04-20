@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-03-26 07:59:00-0400
+date: 2026-04-20 08:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Our paper got published in [Science Advances](https://www.science.org/doi/10.1126/sciadv.adq0305)!
+Our self-triage paper got published in [Nature Health](https://rdcu.be/femTT)!

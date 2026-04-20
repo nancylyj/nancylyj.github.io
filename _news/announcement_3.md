@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-24 07:59:00-0400
+date: 2024-10-09 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-BigSmall is accepted to WACV 2024.
+Attended [Ubicomp/ISWC 2024](https://www.ubicomp.org/ubicomp-iswc-2024/) in Melbourne, Australia, presented ThermalEarring with Shirley.
