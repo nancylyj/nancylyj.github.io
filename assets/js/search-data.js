@@ -391,10 +391,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-attended-ubicomp-iswc-2023-in-cancun-mexico",
-          title: 'Attended UbiComp/ISWC 2023 in Cancun, Mexico.',
-          description: "",
-          section: "News",},{id: "news-thermalearring-got-accepted-to-ubicomp-imwut",
+            },},{id: "news-thermalearring-got-accepted-to-ubicomp-imwut",
           title: 'ThermalEarring got accepted to UbiComp/IMWUT!',
           description: "",
           section: "News",},{id: "news-bigsmall-is-accepted-to-wacv-2024",
@@ -405,6 +402,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-got-published-in-science-advances",
           title: 'Our paper got published in Science Advances!',
+          description: "",
+          section: "News",},{id: "news-our-self-triage-paper-got-published-in-nature-health",
+          title: 'Our self-triage paper got published in Nature Health!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
