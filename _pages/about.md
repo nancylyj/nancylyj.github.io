@@ -34,4 +34,3 @@ Prior to UC San Diego, I earned my MS from University of Washington Seattle, whe
 I develop end-to-end systems to provide intelligent assistants to human beings, with an emphasis in health. Currently, my research focuses on building patient-facing and physician-facing tools powered by large languge models to improve clinical workflows and support personalized patient care.
 
 Feel free to reach out to me at nyjliu [at] ucsd [dot] edu!
-

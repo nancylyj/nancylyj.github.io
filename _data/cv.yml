@@ -69,7 +69,7 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: Graduate Teaching Assistant 
+    - title: Graduate Teaching Assistant
     - institution: University of California, San Diego
       year: 03/2025 - 06/2025
       description:
@@ -78,9 +78,9 @@
     - title: Graduate Teaching Assistant
     - institution: University of Washington, Seattle
       year: 09/2022 - 03/2023
-      description: 
+      description:
         - Course - EE 331 Devices and Circuits
-    
+
     - title: Graduate Teaching Assistant
     - institution: University of Washington, Seattle
       year: 03/2022 - 06/2022
@@ -92,9 +92,9 @@
   contents:
     - title: Professional skills
       items:
-        - Large Language Models, Machine Learning; Embedded System; PCB Design; MATLAB; Linux; Simulation; FPGA Design 
+        - Large Language Models, Machine Learning; Embedded System; PCB Design; MATLAB; Linux; Simulation; FPGA Design
     - title: Programming languages
-      items: 
+      items:
         - Python; Java; C/C++; SQL; System Verilog; Assembly
     - title: Languages
       items:
