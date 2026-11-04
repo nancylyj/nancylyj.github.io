@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hardware Prototyping | Human-Computer Interaction | Healthcare
+subtitle: AI for Health | Human-Computer Interaction | Digital Health
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -31,6 +31,6 @@ I am a PhD student in [DigiHealth Lab](https://digihealth.ucsd.edu/) at Universi
 
 Prior to UC San Diego, I earned my MS from University of Washington Seattle, where I was advised by Prof. [Shwetak Patel](https://people.ece.uw.edu/patel_shwetak/). I was also fortunate to work with Prof. [Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/). My work at [UW Ubicomp Lab](https://ubicomplab.cs.washington.edu/) focuses on wearable devices and multimodal physiological sensing.
 
-I develop end-to-end systems to provide intelligent assistants to human beings, with an emphasis in health. Currently, my research focuses on building patient-facing and physician-facing tools powered by large languge models to improve clinical workflows and support personalized patient care.
+I develop end-to-end systems to provide intelligent assistants to human beings, with an emphasis in health. Currently, my research focuses on building patient-facing and physician-facing tools powered by large language models to improve clinical workflows and support personalized patient care.
 
 Feel free to reach out to me at nyjliu [at] ucsd [dot] edu!
