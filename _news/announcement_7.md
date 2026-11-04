@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending [AMIA 2026 Annual Symposium](https://amia.org/education-events/amia-2026-annual-symposium) to present our self-triage paper.
+Attending [AMIA 2026 Annual Symposium](https:/amia.org/education-events/amia-2026-annual-symposium) to present our self-triage paper.
